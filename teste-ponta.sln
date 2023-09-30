@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestePonta.Api", "teste-ponta\TestePonta.Api.csproj", "{A5DC7568-2AEE-44B4-9141-FE148613BDCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestePonta.Api", "TestePonta.Api\TestePonta.Api.csproj", "{A5DC7568-2AEE-44B4-9141-FE148613BDCA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestePonta.Application", "TestePonta.Application\TestePonta.Application.csproj", "{F94EEBB8-E8BB-4F45-B1F1-376434F61871}"
 EndProject
