@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestePonta.Tests", "TestePo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestePonta.Core", "TestePonta.Core\TestePonta.Core.csproj", "{79AC6101-B8AB-411C-804F-F61083B5D3FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestePonta.App", "TestePonta.App\TestePonta.App.csproj", "{0B83242C-6242-44B3-9251-81B7565DA396}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{79AC6101-B8AB-411C-804F-F61083B5D3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79AC6101-B8AB-411C-804F-F61083B5D3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79AC6101-B8AB-411C-804F-F61083B5D3FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B83242C-6242-44B3-9251-81B7565DA396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B83242C-6242-44B3-9251-81B7565DA396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B83242C-6242-44B3-9251-81B7565DA396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B83242C-6242-44B3-9251-81B7565DA396}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
