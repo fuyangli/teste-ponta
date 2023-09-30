@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teste-ponta", "teste-ponta\teste-ponta.csproj", "{A5DC7568-2AEE-44B4-9141-FE148613BDCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestePonta.Api", "teste-ponta\TestePonta.Api.csproj", "{A5DC7568-2AEE-44B4-9141-FE148613BDCA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestePonta.Application", "TestePonta.Application\TestePonta.Application.csproj", "{F94EEBB8-E8BB-4F45-B1F1-376434F61871}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestePonta.Domain", "TestePonta.Domain\TestePonta.Domain.csproj", "{411AE733-29E0-4291-945B-8CF50272CE81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestePonta.Infrastructure", "TestePonta.Infrastructure\TestePonta.Infrastructure.csproj", "{10F36972-F53B-47FC-B5CE-A615B04E67F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestePonta.Tests", "TestePonta.Tests\TestePonta.Tests.csproj", "{228D615D-AF93-4A5E-98BC-EF2D744A18C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestePonta.Core", "TestePonta.Core\TestePonta.Core.csproj", "{79AC6101-B8AB-411C-804F-F61083B5D3FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{A5DC7568-2AEE-44B4-9141-FE148613BDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5DC7568-2AEE-44B4-9141-FE148613BDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5DC7568-2AEE-44B4-9141-FE148613BDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F94EEBB8-E8BB-4F45-B1F1-376434F61871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F94EEBB8-E8BB-4F45-B1F1-376434F61871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F94EEBB8-E8BB-4F45-B1F1-376434F61871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F94EEBB8-E8BB-4F45-B1F1-376434F61871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{411AE733-29E0-4291-945B-8CF50272CE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411AE733-29E0-4291-945B-8CF50272CE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411AE733-29E0-4291-945B-8CF50272CE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411AE733-29E0-4291-945B-8CF50272CE81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F36972-F53B-47FC-B5CE-A615B04E67F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F36972-F53B-47FC-B5CE-A615B04E67F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F36972-F53B-47FC-B5CE-A615B04E67F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F36972-F53B-47FC-B5CE-A615B04E67F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228D615D-AF93-4A5E-98BC-EF2D744A18C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228D615D-AF93-4A5E-98BC-EF2D744A18C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228D615D-AF93-4A5E-98BC-EF2D744A18C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228D615D-AF93-4A5E-98BC-EF2D744A18C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79AC6101-B8AB-411C-804F-F61083B5D3FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79AC6101-B8AB-411C-804F-F61083B5D3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79AC6101-B8AB-411C-804F-F61083B5D3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79AC6101-B8AB-411C-804F-F61083B5D3FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
