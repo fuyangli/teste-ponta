@@ -111,7 +111,7 @@ Usuários: https://localhost:7080/
 ##### Diferenciais (aumenta suas chances de classificação): 
 
 - Testes Unitários: 
-   - Escreva testes unitários para garantir a robustez e a confiabilidade da API. 
+   - Escreva testes unitários para garantir a robustez e a confiabilidade da API. <span style="color: green;">☑</span>
 
 - Segurança: 
    - Garanta que a API esteja protegida contra ataques comuns, como injeção SQL e ataques de força bruta. <span style="color: green;">☑</span>
