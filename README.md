@@ -54,7 +54,7 @@ Certifique-se de ter os seguintes requisitos antes de iniciar o projeto:
    run.ps1
    ``` 
    
-   **OU abra a solução teste-ponta.snl Visual Studio 2012 clique com o botão direito na solução, clique em 'Configurar projetos de inicialização...' e coloque iniciar para ambos TestePonta.Api e TestaPonta.App**
+   **OU abra a solução teste-ponta.snl Visual Studio 2022 clique com o botão direito na solução, clique em 'Configurar projetos de inicialização...' e coloque iniciar para ambos TestePonta.Api e TestaPonta.App**
 
 
 Abra o navegador em "https://localhost:7001/swagger/index.html" para ver o Swagger da API
