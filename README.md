@@ -42,7 +42,7 @@ Certifique-se de ter os seguintes requisitos antes de iniciar o projeto:
    cd teste-ponta
    ```
 
-   Configure e inicie a REST API:
+   **Configure e inicie a REST API:**
 
    ```bash
    dotnet run --project '.\TestePonta.Api\'
@@ -52,7 +52,10 @@ Certifique-se de ter os seguintes requisitos antes de iniciar o projeto:
 
    ```bash
    run.ps1
-   ```
+   ``` 
+   
+   **OU abra a solução teste-ponta.snl Visual Studio 2012 clique com o botão direito na solução, clique em 'Configurar projetos de inicialização...' e coloque iniciar para ambos TestePonta.Api e TestaPonta.App**
+
 
 Abra o navegador em "https://localhost:7001/swagger/index.html" para ver o Swagger da API
 Abra o navegador em "https://localhost:7080/" para navegar na aplicação.
