@@ -15,7 +15,7 @@ function Login({ setToken }) {
         try {
             const response = await api.post('/api/auth/login', { Email: email, Password: password });
             const { token } = response.data;
-            setToken(token); // Armazena o token no estado global da aplicação
+            setToken(token);
             navigate('/');
         } catch (err) {
             setError('Credenciais inválidas');
@@ -23,7 +23,7 @@ function Login({ setToken }) {
     };
 
     return (
-        <div class="wrapper fadeInDown">
+        <div class="wrapper fadeInDown login">
             <div id="formContent">
                 <div class="fadeIn first">
                     <img src="/unnamed.png" id="icon" alt="User Icon" />

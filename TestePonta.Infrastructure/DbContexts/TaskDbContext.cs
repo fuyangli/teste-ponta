@@ -47,7 +47,7 @@ namespace TestePonta.Infrastructure.DbContexts
                  new User { Name = "Dev1", Email = "dev1@ponta.com.br"},
             };
 
-            foreach(var user in users)
+            foreach (var user in users)
             {
                 var password = "senha";
                 var salt = PasswordHasher.GenerateSalt();
@@ -56,7 +56,7 @@ namespace TestePonta.Infrastructure.DbContexts
                 user.PasswordSalt = salt;
                 Users.Add(user);
             }
-            
+
             SaveChanges();
         }
     }

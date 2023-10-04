@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using NLog.Extensions.Logging;
+using NLog;
 using System.Reflection;
 using System.Text;
 using TestePonta.Application.Services;
@@ -38,7 +39,7 @@ builder.Services.AddSwaggerGen(options =>
         In = ParameterLocation.Header,
         Type = SecuritySchemeType.Http,
         Scheme = "Bearer",
-        BearerFormat= "JWT"
+        BearerFormat = "JWT"
     });
 
     // Adicionar um requisito de segurança para todas as operações
@@ -88,12 +89,17 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin", builder =>
     {
-        builder.WithOrigins("https://localhost:44490") 
+        builder.WithOrigins("https://localhost:44490")
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials();
     });
 });
+
+var config = new ConfigurationBuilder()
+    .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+    .Build();
+LogManager.Configuration = new NLogLoggingConfiguration(config.GetSection("NLog"));
 
 var app = builder.Build();
 

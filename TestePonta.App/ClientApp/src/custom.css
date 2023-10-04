@@ -1,4 +1,7 @@
 /* Provide sufficient contrast against white background */
+body, #root {
+    background-color: white;
+}
 a {
   color: #0366d6;
 }

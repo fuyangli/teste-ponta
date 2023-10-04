@@ -1,8 +1,5 @@
 ﻿// UserRepository.cs
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using TestePonta.Domain.Models;
 using TestePonta.Domain.Repositories;
 using TestePonta.Infrastructure.DbContexts;

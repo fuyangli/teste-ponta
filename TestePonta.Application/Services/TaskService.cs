@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using TestePonta.Core.DTOs;
-using TestePonta.Core.Enums;
-using TestePonta.Domain.Models;
+﻿using TestePonta.Core.DTOs;
 using TestePonta.Domain.Repositories;
 using TestePonta.Domain.Services;
 using TaskStatus = TestePonta.Core.Enums.TaskStatus;
@@ -117,7 +111,7 @@ namespace TestePonta.Application.Services
                 Description = taskDTO.Description,
                 CreatedAt = DateTime.Now,
                 Status = TaskStatus.Pending,
-                UserId = taskDTO.UserId
+                UserId = taskDTO.UserId ?? -1
             };
         }
     }

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
 
 public class PasswordHasher
@@ -52,5 +51,5 @@ public class PasswordHasher
 //        Console.WriteLine($"A senha é válida? {isPasswordValid}");
 //    }
 
-    
+
 //}

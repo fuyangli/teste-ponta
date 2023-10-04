@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestePonta.Tests", "TestePo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestePonta.Core", "TestePonta.Core\TestePonta.Core.csproj", "{79AC6101-B8AB-411C-804F-F61083B5D3FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestePonta.App", "TestePonta.App\TestePonta.App.csproj", "{0B83242C-6242-44B3-9251-81B7565DA396}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestePonta.App", "TestePonta.App\TestePonta.App.csproj", "{0B83242C-6242-44B3-9251-81B7565DA396}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{04CA6119-38A8-4FD4-AA03-67C4D8BEC8A6}"
+	ProjectSection(SolutionItems) = preProject
+		run.ps1 = run.ps1
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

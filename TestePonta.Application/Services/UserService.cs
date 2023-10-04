@@ -1,5 +1,4 @@
-﻿using System.Reflection;
-using TestePonta.Core.DTOs;
+﻿using TestePonta.Core.DTOs;
 using TestePonta.Domain.Models;
 using TestePonta.Domain.Repositories;
 
@@ -17,7 +16,7 @@ namespace TestePonta.Domain.Services
         public async Task<UserDTO> CreateUserAsync(UserDTO user)
         {
             var userExist = await GetUserByEmailAsync(user.Email);
-            if(userExist != null)
+            if (userExist != null)
             {
                 return null;
             }
