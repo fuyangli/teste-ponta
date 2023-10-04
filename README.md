@@ -123,7 +123,7 @@ Usuários: https://localhost:7080/
     - Otimize a API para garantir alta performance e baixa latência. <span style="color: green;">☑</span>
 
 - Logs: 
-   - Implemente logs para rastrear eventos importantes na API, o que pode ser útil para depuração e monitoramento. 
+   - Implemente logs para rastrear eventos importantes na API, o que pode ser útil para depuração e monitoramento. <span style="color: green;">☑</span>
  
 - Ferramentas desejáveis:
    - Usar uma ORM, preferencialmente o EF Core. <span style="color: green;">☑</span>
